@@ -132,7 +132,7 @@ GfxTextOut(fullName() +" ("+IndustryID(1)+")  ",10,Status("pxheight")/1.1);
 //JUDUL
 Title=
 EncodeColor(colorDefault)+Name() +"  "+Date()+"  "+Interval(2)+"  "
-+ EncodeColor(colorDefault) +" •Open:" +WriteVal(O,1.0) +" •Hi:" +WriteVal(H,1.0) +		" •Low:" +WriteVal(L,1.0)	+" •Close:" +WriteVal(C,1.0)
-+EncodeColor(colorBrown) +"\n" +"• Area Support : "+"S2"+WriteVal(S2,6.0)+ " ("+WriteVal((S2-C)/C*100,1.1) +"%" +") " +"- " +"S1"+WriteVal(S1,6.0) + " ("+WriteVal((S1-C)/C*100,1.1) +"%" +") "
-+EncodeColor(colorDarkTeal) +EncodeColor(colorDarkGreen) +"\n" +"• Area Resistance : " +"R1"+WriteVal(R1,6.0)+ " ("+WriteVal((R1-C)/C*100,1.1) +"%" +") " +"- " +"R2"+WriteVal(R2,6.0)+ " ("+WriteVal((R2-C)/C*100,1.1) +"%" +") " +"- " +"R3"+WriteVal(R3,6.0)+ " ("+WriteVal((R3-C)/C*100,1.1) +"%" +") " 
++ EncodeColor(colorDefault) +" â€¢Open:" +WriteVal(O,1.0) +" â€¢Hi:" +WriteVal(H,1.0) +		" â€¢Low:" +WriteVal(L,1.0)	+" â€¢Close:" +WriteVal(C,1.0)
++EncodeColor(colorBrown) +"\n" +"â€¢ Area Support : "+"S2"+WriteVal(S2,6.0)+ " ("+WriteVal((S2-C)/C*100,1.1) +"%" +") " +"- " +"S1"+WriteVal(S1,6.0) + " ("+WriteVal((S1-C)/C*100,1.1) +"%" +") "
++EncodeColor(colorDarkTeal) +EncodeColor(colorDarkGreen) +"\n" +"â€¢ Area Resistance : " +"R1"+WriteVal(R1,6.0)+ " ("+WriteVal((R1-C)/C*100,1.1) +"%" +") " +"- " +"R2"+WriteVal(R2,6.0)+ " ("+WriteVal((R2-C)/C*100,1.1) +"%" +") " +"- " +"R3"+WriteVal(R3,6.0)+ " ("+WriteVal((R3-C)/C*100,1.1) +"%" +") " 
 +"\n";
